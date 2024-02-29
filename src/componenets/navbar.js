@@ -1,29 +1,44 @@
 import "./navbarstyles.css";
-
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-const navbar = () => {
+import { FaBars, FaTimes } from "react-icons/fa";
+
+const Navbar = () => {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
   return (
     <div className="header">
       <Link to="/">
-       <h1> Portfolio </h1>
+        <h1> Portfolio </h1>
       </Link>
-      <ul>
+      <ul className={`nav-menu ${click ? 'active' : ''}`}>
         <li>
-            <Link to="/">Home</Link>
+          <Link to="/" onClick={handleClick}>
+            Home
+          </Link>
         </li>
         <li>
-            <Link to="/project">Project</Link>
+          <Link to="/project" onClick={handleClick}>
+            Project
+          </Link>
         </li>
         <li>
-            <Link to="/about">About</Link>
+          <Link to="/about" onClick={handleClick}>
+            About
+          </Link>
         </li>
         <li>
-            <Link to="/contact">Contact</Link>
+          <Link to="/contact" onClick={handleClick}>
+            Contact
+          </Link>
         </li>
       </ul>
+      <div className="hamburger" onClick={handleClick}>
+        {click ? <FaTimes size={20} style={{ color: "#fff" }} /> : <FaBars size={20} style={{ color: "#fff" }} />}
+      </div>
     </div>
   );
 };
 
-export default navbar;
+export default Navbar;
