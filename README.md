@@ -24,7 +24,9 @@ in this project i had a lot of ups and downs and lots but it was worth it in the
 
 
 ## links
+https://github.com/Shawnclarke21/react_portfolio
 
+https://shawnclarke21.github.io/react_portfolio/
 
 
 ## photos
