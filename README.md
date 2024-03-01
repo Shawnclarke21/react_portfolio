@@ -24,3 +24,11 @@ in this project i had a lot of ups and downs and lots but it was worth it in the
 
 
 ##links
+
+
+
+##photos
+![Screenshot 2024-03-01 010734](https://github.com/Shawnclarke21/react_portfolio/assets/139307719/967a74ed-93bb-434d-99a7-e7bc6f8dfe74)
+![Screenshot 2024-03-01 010729](https://github.com/Shawnclarke21/react_portfolio/assets/139307719/18f39538-3a38-49e8-a001-f3dd82909be8)
+![Screenshot 2024-03-01 010715](https://github.com/Shawnclarke21/react_portfolio/assets/139307719/f6a04722-b995-45df-9718-3537c31fc6a8)
+![Screenshot 2024-03-01 010658](https://github.com/Shawnclarke21/react_portfolio/assets/139307719/b596c237-ffed-4168-b6e2-a20ced8ce846)
